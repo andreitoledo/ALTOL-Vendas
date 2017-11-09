@@ -13,7 +13,7 @@
 		$.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
 	}
 
-	var methods = { 
+	var methods = {
 		destroy : function(){
 			var input = $(this);
 			input.unbind('.maskMoney');
