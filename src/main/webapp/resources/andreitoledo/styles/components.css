@@ -51,7 +51,7 @@
 	color: #373737;
 }
 
-/* botões do sistema */
+/* botï¿½es do sistema */
 .botao-novo {
 	padding: .3em 1em;
 	text-align: center;
@@ -63,3 +63,52 @@
 	background-color: #00c0ef !important;
 	border-color: #00acd6 !important;
 }
+
+/* barra azul topo modulos */
+#mod_topo {
+width: 900px;
+/* background: url(../imagens/modulos/topo.png) top center no-repeat; */
+float: left;
+position: relative;
+padding: 10px 0;
+height: 30px;
+}
+
+/* modo topo com fonte h1 */
+#mod_topo h1 {
+color: #555753;
+width: 100%;
+float: left;
+position: relative;
+text-align: center;
+letter-spacing: 1px;
+font-size: 23px;
+}
+
+/* modo para texto simples */
+.mod_texto {
+width: 810px;
+height: auto;
+float: left;
+position: relative;
+padding: 0 25px 20px 15px;
+}
+
+/* modo imagens */
+.mod_img {
+float: left;
+position: relative;
+margin: 10px 0;
+width: 850px;
+text-align: center;
+}
+
+#mod_rodape {
+width: 860px;
+float: left;
+position: relative;
+padding: 3px 20px;
+/* background: url(../images/modulos/rodape.jpg) bottom center no-repeat; */
+height: 44px;
+}
+
