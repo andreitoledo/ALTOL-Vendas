@@ -1,6 +1,6 @@
 # ALTOL-Vendas
 # Sistema ERP ALTOL - Módulo de Vendas
-## em desenvolvimento
+## desenvolvimento em andamento
 
 #### Sobre:
 
