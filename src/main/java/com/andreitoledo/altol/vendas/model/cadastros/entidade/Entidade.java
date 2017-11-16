@@ -24,6 +24,7 @@ public abstract class Entidade implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 	private Long codigo;
 	@NotEmpty
 	private String nome;
