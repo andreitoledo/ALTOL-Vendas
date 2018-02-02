@@ -4,56 +4,39 @@
 	xmlns:f="http://xmlns.jcp.org/jsf/core"
 	xmlns:p="http://primefaces.org/ui">
 
-	<nav class="aw-menu">
+<nav class="aw-menu">
 
 		<ul>
-
 			<h:form>
-				<p:growl autoUpdate="false" />
-
+				<p:growl autoUpdate="false" /> 
 				<p:panelMenu style="width:600px">
-
+				
 					<p:submenu label="Cadastros">
-
 						<p:submenu label="Parâmetros Gerais">
-
 							<p:menuitem value="Departamento" icon="ui-icon-arrowrefresh-1-w" 
 							outcome="/cadastros/parametros/departamento/PesquisaDepartamentos.xhtml" />
-
 							<p:menuitem value="Usuarios" icon="ui-icon-arrowrefresh-1-w" 
 							outcome="/cadastros/usuario/PesquisaUsuarios.xhtml" />
-
 							<p:menuitem value="Classificação Entidades"
 								icon="ui-icon-arrowrefresh-1-w"
 								outcome="/cadastros/parametros/classificacaoEntidade/PesquisaClassifEntidades.xhtml" />
-
 							<p:menuitem value="Empresa Usuária"
 								icon="ui-icon-arrowrefresh-1-w" 
-								outcome="/cadastros/parametros/empresaUsuaria/PesquisaEmpresasUsuarias.xhtml"/>
-
-							<p:menuitem value="Bancos" icon="ui-icon-arrowrefresh-1-w" />
-							<p:menuitem value=" Conta
-								Bancária"
-								icon="ui-icon-arrowrefresh-1-w" />
-
+								outcome="/cadastros/parametros/empresaUsuaria/PesquisaEmpresasUsuarias.xhtml"/>							
 						</p:submenu>
 						<p:separator />
 
 						<p:submenu label="Entidades">
 							<p:menuitem value="Vendedores" icon="ui-icon-arrowrefresh-1-w"
 								outcome="/cadastros/entidades/vendedor/PesquisaVendedores.xhtml" />
-
 							<p:menuitem value="Pessoa Jurídica"
 								icon="ui-icon-arrowrefresh-1-w" 
 								outcome="/cadastros/entidades/pessoaJuridica/PesquisaPessoasJuridicas" />
-
 							<p:menuitem value="Pessoa Física" icon="ui-icon-arrowrefresh-1-w"
 								outcome="/cadastros/entidades/pessoaFisica/PesquisaPessoasFisicas" />
-
 							<p:menuitem value="Outros Credores"
 								icon="ui-icon-arrowrefresh-1-w"
 								outcome="/cadastros/entidades/outroCredor/PesquisaOutrosCredores.xhtml" />
-
 							<p:menuitem value="Funcionários" icon="ui-icon-arrowrefresh-1-w"
 								outcome="/cadastros/entidades/funcionario/PesquisaFuncionarios.xhtml" />
 						</p:submenu>
@@ -79,49 +62,21 @@
 
 							<p:separator />
 							<p:menuitem value="Produto" icon="ui-icon-arrowrefresh-1-w" />
-
 						</p:submenu>
 					</p:submenu>
 
 					<p:submenu label="Operações">
-
 						<p:submenu label="Vendas">
-							<p:menuitem value="Cadastro Nota de Venda"
+							<p:menuitem value="Orçamento de Venda"
 								icon="ui-icon-arrowrefresh-1-w" />
-						</p:submenu>
-
-						<p:submenu label="Finanças">
-							<p:menuitem value="Pagamento Nota de Venda"
-								icon="ui-icon-arrowrefresh-1-w" />
-						</p:submenu>
-
-						<p:submenu label="Contábil">
-							<p:menuitem value="Objeto Controle"
-								icon="ui-icon-arrowrefresh-1-w" />
-							<p:menuitem value="Tipos Objeto Controle"
-								icon="ui-icon-arrowrefresh-1-w" />
-
-						</p:submenu>
-
-					</p:submenu>
-
-					<p:submenu label="Consultas">
-						<p:submenu label="Nota de Venda">
-
-							<p:menuitem value="por Movimento e Espécie"
-								icon="ui-icon-arrowrefresh-1-w" />
-
 						</p:submenu>
 					</p:submenu>
 
-
+					<p:submenu label="Consultas">						
+					</p:submenu>
 
 				</p:panelMenu>
-
 			</h:form>
-
 		</ul>
-
 	</nav>
-
 </ui:composition>
